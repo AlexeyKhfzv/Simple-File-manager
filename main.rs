@@ -150,7 +150,10 @@ pub fn home(directory: Option<String>) {
             }
         }
     } else if option == "Open directory" {
-        home(Some(select_dir(&main_dir, Some("Open here"))));
+        let dir = select_dir(&main_dir, Some("Open here"));
+        if dir != "Exit".to_string() {
+            home(Some(dir));
+        }
     } else if option == "Remove file" {
         let file = select_file(&main_dir, None);
 
