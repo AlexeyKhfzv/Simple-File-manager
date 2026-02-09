@@ -1,7 +1,7 @@
 # Simple File manager
 Manage files and directories. Written using Rust language
 
-![Failed to upload image](https://github.com/jon/coolproject/raw/master/home/alexey/Pictures/File_manager_photo.png)
+![Image alt](https://github.com/alexeyLol}/{Simple-File-manager}/raw/{Interface example}/image.png)
 
 This program uses Rust language. Create new project and add main.rs with Cargo.toml
 Then just run it: in the terminal You will see user-friendly interface. Now You can open, find, create and remove files and directories.
