@@ -24,7 +24,7 @@ pub fn home(directory: Option<String>) {
         "Remove file".to_string(),
         "Remove directory".to_string(),
     ];
-    if !directory.is_none() && directory.unwrap() != main_dir {
+    if !directory.is_none() && directory.unwrap() != get_main_dir() {
         options.push("Return to the main dir".blue().bold().to_string());
     }
     options.push("Exit".red().bold().to_string());
