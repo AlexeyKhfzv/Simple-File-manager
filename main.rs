@@ -204,7 +204,7 @@ pub fn home(directory: Option<String>) {
         } else {
             dirpaths.push("No, return".red().bold().to_string());
             let selected_dir = Select::new(
-                &format!("Found {} dirs. Open it?", dirpaths.len() - 1).white().bold().to_string(), dirpaths
+                &format!("Found {} dir(s). Open it?", dirpaths.len() - 1).white().bold().to_string(), dirpaths
             ).prompt().unwrap();
             if selected_dir == "No, return".red().bold().to_string() {
                 home(Some(main_dir));
