@@ -3,7 +3,7 @@ Manage files and directories. Written using Rust language
 
 ![Interface example](Interface_example.png)
 
-This program uses Rust language. Create new project and add main.rs with Cargo.toml
+This program was written in Rust language. Create new project and add main.rs with Cargo.toml
 
 After that just run it: in the terminal You will see user-friendly interface. Now You can open, find, create and remove files and directories.
 
