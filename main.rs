@@ -437,7 +437,7 @@ pub fn find_directory(dirname: &str, directory: &str, dirpaths: &mut Vec<String>
                             if entry.file_name() == dirname {
                                 dirpaths.push(filepath.to_string());
                             }
-                            find_file(dirname, entry.path().to_str().unwrap(), dirpaths)
+                            find_directory(dirname, entry.path().to_str().unwrap(), dirpaths)
                         },
                         None => {},
                     }
