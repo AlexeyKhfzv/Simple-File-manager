@@ -3,7 +3,7 @@ use colored::*;
 use std::fs::{File, read_dir, read_to_string, write, remove_file, create_dir, remove_dir};
 use std::env;
 
-fn main() {
+pub fn run() {
     println!("{}", "Welcome to File manager".purple().bold());
     home(None);
 }
@@ -152,7 +152,11 @@ pub fn home(directory: Option<String>) {
     } else if option == "Open directory" {
         let dir = select_dir(&main_dir, Some("Open here"));
         if dir != "Exit".to_string() {
-            home(Some(dir));
+            if dir == "Return".to_string() {
+                home(Some(main_dir));
+            } else {
+                home(Some(dir));
+            }
         }
     } else if option == "Remove file" {
         let file = select_file(&main_dir, None);
@@ -461,4 +465,3 @@ pub fn get_main_dir() -> String {
         current_dirs[0].clone()
     }
 }
-
