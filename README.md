@@ -18,6 +18,6 @@ Now You can open, find, create and remove files and directories!
 
 - [x] In Your terminal - in order not to be distracted by opening extraneous applications.
 
-- [x] Colored interface with selection, not just typing.
+- [x] Colored interface with selection, **not just typing**.
 
 - [x] Rust provides good performance and safety.
