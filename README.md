@@ -7,8 +7,17 @@
 
 * Install Rust language.
 * Create new project and add `main.rs` and `Cargo.toml` there.
-* Run this project - You will see user-friendly interface in Yout terminal
+* Run this project - You will see user-friendly interface in Your terminal.
 
-Now You can open, find, create and remove files and directories.
+Now You can open, find, create and remove files and directories!
 
-Firstly I would like to recommend opening the directory where You will be working, because it is convenient. Then manage your files: Rust will provide good performance and safety.
+
+## Convenience
+
+- [x] Work in one directory - You can open any folder and manage your files there.
+
+- [x] In Your terminal - in order not to be distracted by opening extraneous applications.
+
+- [x] Colored interface with selection, not just typing.
+
+- [x] Rust provides good performance and safety.
