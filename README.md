@@ -9,10 +9,10 @@
 ## Getting Started
 
 * Install Rust language.
-* Create new project and add `main.rs` and `Cargo.toml` there.
+* Create new project and add `main.rs` with `Cargo.toml` there.
 * Run this project - You will see user-friendly interface in Your terminal.
 
-Now You can open, find, create and remove files and directories!
+Now You can manage files and directories: find, read, write and more!
 
 
 ## Convenience
