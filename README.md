@@ -4,7 +4,7 @@
 ![Interface example](Interface_example.png)
 [![License](https://img.shields.io/badge/License-%20Apache%202.0-green.svg)](#)
 [![Rust](https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=white)](#)
-[![License](https://img.shields.io/badge/Terminal%202.0-green.svg)](#)
+[![License](https://img.shields.io/badge/Terminal%20-red.svg)](#)
 
 ## Getting Started
 
