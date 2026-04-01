@@ -1,5 +1,6 @@
 <h1 align="center"> Simple File manager </h1>
 
+---
 ![Interface example](Interface_example.png)
 
 This program was written in Rust language. Create new project and add main.rs with Cargo.toml
