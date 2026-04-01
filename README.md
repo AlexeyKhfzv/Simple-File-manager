@@ -1,5 +1,4 @@
-# Simple File manager
-Manage files and directories. Written using Rust language
+<h1 align="center"> Simple File manager </h1>
 
 ![Interface example](Interface_example.png)
 
