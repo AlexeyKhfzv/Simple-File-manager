@@ -1,4 +1,4 @@
-<h1 align="center"> Simple file manager </h1>
+<h1 align="center"> Simple File manager </h1>
 
 ---
 ![Interface example](Interface_example.png)
