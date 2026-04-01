@@ -14,7 +14,7 @@ Now You can open, find, create and remove files and directories!
 
 ## Convenience
 
-- [x] Work in one directory - You can open any folder and manage your files there.
+- [x] Work in one directory - You can open any folder and manage your data there.
 
 - [x] In Your terminal - in order not to be distracted by opening extraneous applications.
 
