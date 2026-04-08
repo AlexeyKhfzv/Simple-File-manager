@@ -3,6 +3,10 @@ use colored::*;
 use std::fs::{File, read_dir, read_to_string, write, remove_file, create_dir, remove_dir};
 use std::env;
 
+fn main() {
+    run();
+}
+
 pub fn run() {
     println!("{}", "Welcome to File manager".purple().bold());
     home(None);
